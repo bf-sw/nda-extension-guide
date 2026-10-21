@@ -1,0 +1,18 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif; color: #23332d; background: #f4f7f5; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 32px 20px 48px; }
+main { max-width: 800px; margin: 0 auto; background: #fff; border: 1px solid #dbe5df; border-radius: 18px; padding: 36px; }
+.brand { display: flex; align-items: center; gap: 12px; font-size: 14px; font-weight: 700; color: #24654e; }
+.brand img { width: 36px; height: 36px; }
+h1 { margin: 24px 0 12px; font-size: 28px; line-height: 1.4; letter-spacing: -.6px; }
+h2 { margin: 30px 0 10px; font-size: 18px; }
+p, li { font-size: 15px; line-height: 1.85; overflow-wrap: anywhere; word-break: keep-all; }
+p { margin: 10px 0; }
+ul, ol { padding-left: 24px; }
+li { margin: 7px 0; }
+a { color: #146648; text-underline-offset: 3px; }
+a:focus-visible { outline: 3px solid #a5d8bc; outline-offset: 4px; border-radius: 3px; }
+.meta { color: #65776d; font-size: 13px; }
+.notice { padding: 16px 18px; background: #f1f8f4; border: 1px solid #d7e9de; border-radius: 10px; }
+footer { border-top: 1px solid #e5ebe7; margin-top: 30px; padding-top: 18px; }
+@media (max-width: 480px) { body { padding: 14px 12px 28px; } main { padding: 24px 20px; border-radius: 14px; } h1 { font-size: 24px; } }
